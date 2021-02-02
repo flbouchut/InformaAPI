@@ -3,7 +3,8 @@ const sql = require("./db.js");
 // constructor
 const Message = function(message) {
   this.recipient_id = message.recipient_id;
-  this.sender_id = message.sender_id;
+  thi
+  s.sender_id = message.sender_id;
   this.content = message.content;
   this.datetime = message.datetime;
 };
